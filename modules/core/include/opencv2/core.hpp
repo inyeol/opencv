@@ -49,6 +49,7 @@
 #  error core.hpp header must be compiled as C++
 #endif
 
+
 #include "opencv2/core/cvdef.h"
 #include "opencv2/core/version.hpp"
 #include "opencv2/core/base.hpp"
@@ -3293,5 +3294,4 @@ struct ParamType<_Tp, typename std::enable_if< std::is_enum<_Tp>::value >::type>
 #include "opencv2/core/utility.hpp"
 #include "opencv2/core/optim.hpp"
 #include "opencv2/core/ovx.hpp"
-
 #endif /*OPENCV_CORE_HPP*/
